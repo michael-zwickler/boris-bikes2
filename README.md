@@ -1,26 +1,26 @@
-# Boris Bikes
+### Boris Bikes
 
-# Motivation
+## Motivation
 Description of motvation and maintenance
 
-# Build Status
+## Build Status
 
-# Code Style
+## Code Style
 
-# Screenshots
+## Screenshots
 
-# Teach used
+## Tech Used
 
-# Code Example
+## Code Example
 
-# Installation
+## Installation
 
-# API Reference
+## API Reference
 
-# Tests
+## Tests
 
-# How to use?
+## How to Use?
 
-# Contrubute
+## Contribute
 
-# Credits
+## Credits

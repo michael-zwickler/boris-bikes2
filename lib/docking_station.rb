@@ -8,10 +8,11 @@ class DockingStation
   end
 
   def dock(bike)
+    fail 'No space left' if @bike
     @bike = bike
   end
 
   def empty?
   end
-
+  
 end

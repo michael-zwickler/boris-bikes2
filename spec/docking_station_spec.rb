@@ -30,10 +30,6 @@ describe DockingStation do
     expect(subject.dock(bike)).to eq bike
   end
   
-  describe "responds to empty?" do
-    it { is_expected.to respond_to :empty?}
-  end
-
   it "raises error when release_bike from empty station" do
     expect{subject.release_bike}.to raise_error("No bikes left")
   end

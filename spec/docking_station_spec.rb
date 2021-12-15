@@ -14,7 +14,8 @@ describe DockingStation do
     it { is_expected.to respond_to :release_bike }
   end
 
-  it "release_bike creates new Bike" do
+  it "bike is working" do
+    subject.dock(Bike.new)
     bike = subject.release_bike
     expect(bike).to be_working
   end
@@ -35,8 +36,7 @@ describe DockingStation do
   end
 
   it "raises error when release_bike from empty station" do
-    subject.empty?
-    expect(subject.release_bike).to raise_error
+    expect{subject.release_bike}.to raise_error("No bikes left")
   end
 
 end

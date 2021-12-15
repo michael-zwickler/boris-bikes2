@@ -15,7 +15,6 @@ class DockingStation
   def dock(bike)
     fail 'No space left' if full?
     @bikes << bike
-    return bike
   end
 
   private

@@ -22,12 +22,12 @@ describe DockingStation do
 
   it "docks something" do
    bike = Bike.new
-   expect(subject.dock(bike)).to eq bike
+   expect(subject.dock(bike)[0]).to eq bike
   end
 
   it "returns docked bikes" do
     bike = Bike.new
-    expect(subject.dock(bike)).to eq bike
+    expect(subject.dock(bike)[0]).to eq bike
   end
   
   it "raises error when release_bike from empty station" do

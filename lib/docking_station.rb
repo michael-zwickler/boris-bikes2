@@ -8,12 +8,12 @@ class DockingStation
   end
 
   def release_bike
-    fail "No bikes left" if empty? 
+    fail "No bikes left" if self.empty? 
     @bikes.pop
   end
 
   def dock(bike)
-    fail 'No space left' if full?
+    fail 'No space left' if self.full?
     @bikes << bike
   end
 
